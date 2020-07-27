@@ -1,0 +1,103 @@
+ [
+  {
+  "firstName"    : "Wilhuf",
+  "lastName"     : "Tarkin",
+  "alias"        : "Grand Moff Tarkin",
+  "soundFile"    : "tarkin.caf",
+  "imageFile"    : "tarkin.jpg",
+  "affiliation"  : "Galactic Empire",
+  "url"          : "https://en.wikipedia.org/wiki/Tarkin",
+  },
+  {
+  "firstName"    : null,
+  "lastName"     : null,
+  "alias"        : "C-3PO",
+  "soundFile"    : "c3po.caf",
+  "imageFile"    : "c3po.jpg",
+  "affiliation"  : "Rebel Alliance",
+  "url"          : "https://en.wikipedia.org/wiki/C-3PO",
+  },
+  {
+  "firstName"    : null,
+  "lastName"     : null,
+  "alias"        : "R2-D2",
+  "soundFile"    : "r2-d2.caf",
+  "imageFile"    : "r2-d2.jpg",
+  "affiliation"  : "Rebel Alliance",
+  "url"          : "https://en.wikipedia.org/wiki/R2-D2",
+  },
+  
+  {
+  "firstName"    : null,
+  "lastName"     : null,
+  "alias"        : "Chewbacca",
+  "soundFile"    : "chewie.caf",
+  "imageFile"    : "chewie.jpg",
+  "affiliation"  : "Rebel Alliance",
+  "url"          : "https://en.wikipedia.org/wiki/Chewbacca",
+  },
+  {
+  "firstName"    : "Jabba",
+  "lastName"     : "Desilijic Tiure",
+  "alias"        : "Jabba The Hutt",
+  "soundFile"    : "jabba.caf",
+  "imageFile"    : "jabba.jpg",
+  "affiliation"  : "Jabba's Criminal Empire",
+  "url"          : "https://en.wikipedia.org/wiki/Jabba_the_Hutt",
+  },
+  {
+  "firstName"    : null,
+  "lastName"     : null,
+  "alias"        : "Greedo",
+  "soundFile"    : "greedo.caf",
+  "imageFile"    : "greedo.jpg",
+  "affiliation"  : "Jabba's Criminal Empire",
+  "url"          : "https://en.wikipedia.org/wiki/Greedo",
+  },
+  {
+  "firstName"    : "Conan Antonio",
+  "lastName"     : "Motti",
+  "alias"        : "Admiral Motti",
+  "soundFile"    : "motti.caf",
+  "imageFile"    : "motti.jpg",
+  "affiliation"  : "Galactic Empire",
+  "url"          : "https://en.wikipedia.org/wiki/Richard_LeParmentier",
+  },
+  {
+  "firstName"    : "Leia",
+  "lastName"     : "Organa",
+  "alias"        : "Princess Leia",
+  "soundFile"    : "leia.caf",
+  "imageFile"    : "leia.jpg",
+  "affiliation"  : "Rebel Alliance",
+  "url"          : "https://en.wikipedia.org/wiki/Princess_Leia",
+  },
+  {
+   "firstName"    : "Padme",
+   "lastName"     : "Naberrie",
+   "alias"        : "Amidala",
+   "soundFile"    : "padme.wav",
+   "imageFile"    : "padme.jpg",
+   "affiliation"  : "Rebel Alliance",
+   "url"          : "https://en.wikipedia.org/wiki/Padm%C3%A9_Amidala"
+  },
+  {
+      "firstName"    : "Fernando",
+      "lastName"     : "Cordón",
+      "alias"        : "Profe del Master",
+      "soundFile"    : "sable.mp3",
+      "imageFile"    : "fernando.jpg",
+      "affiliation"  : "Bellas Artes",
+      "url"          : "https://pintura.webs.upv.es/fernando-cordon/"
+  },
+  {
+      "firstName"    : "Boba",
+      "lastName"     : "Fet",
+      "alias"        : "El cazarrecompensas",
+      "soundFile"    : "boba.wav",
+      "imageFile"    : "boba.jpg",
+      "affiliation"  : "Galactic Empire",
+      "url"          : "https://es.wikipedia.org/wiki/Boba_Fett"
+  }
+  
+]

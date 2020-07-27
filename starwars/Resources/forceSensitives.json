@@ -1,0 +1,74 @@
+[
+  {
+  "firstName"    : "Anakin",
+  "lastName"     : "Skywalker",
+  "alias"        : "Darth Vader",
+  "soundFile"    : "vader.caf",
+  "imageFile"    : "vader.jpg",
+  "jedi"         : false,
+  "sith"         : true,
+  "affiliation"  : "Galactic Empire",
+  "url"          : "https://en.wikipedia.org/wiki/Darth_Vader",
+  "midichlorians": 15000
+  },
+  {
+  "firstName"    : null,
+  "lastName"     : "Palpatine",
+  "alias"        : "Darth Sidious",
+  "soundFile"    : "palpatine.caf",
+  "imageFile"    : "palpatine.jpg",
+  "jedi"         : false,
+  "sith"         : true,
+  "affiliation"  : "Galactic Empire",
+  "url"          : "https://en.wikipedia.org/wiki/Palpatine",
+  "midichlorians": 9000
+  },
+  {
+  "firstName"    : "Obi Wan",
+  "lastName"     : "Kenobi",
+  "alias"        : "Ben Kenobi",
+  "soundFile"    : "obiwan.caf",
+  "imageFile"    : "obiwan.jpg",
+  "jedi"         : true,
+  "sith"         : false,
+  "affiliation"  : "Rebel Alliance",
+  "url"          : "https://en.wikipedia.org/wiki/ObiWanKenobi",
+  "midichlorians": 8000
+  },
+  {
+  "firstName"    : "Minch",
+  "lastName"     : "Yoda",
+  "alias"        : "Master Yoda",
+  "soundFile"    : "yoda.caf",
+  "imageFile"    : "yoda.jpg",
+  "jedi"         : true,
+  "sith"         : false,
+  "affiliation"  : "Rebel Alliance",
+  "url"          : "https://en.wikipedia.org/wiki/Yoda",
+  "midichlorians": 19000
+  },
+  {
+  "firstName"    : "Luke",
+  "lastName"     : "Skywalker",
+  "alias"        : "Skywalker",
+  "soundFile"    : "luke.caf",
+  "imageFile"    : "luke.jpg",
+  "jedi"         : true,
+  "sith"         : false,
+  "affiliation"  : "Rebel Alliance",
+  "url"          : "https://en.wikipedia.org/wiki/Luke_Skywalker",
+  "midichlorians": 19000
+  },
+  {
+  "firstName"    : "Kylo",
+  "lastName"     : "Ren",
+  "alias"        : "Kylo",
+  "soundFile"    : "kylo.caf",
+  "imageFile"    : "kylo.jpg",
+  "jedi"         : false,
+  "sith"         : true,
+  "affiliation"  : "First Order",
+  "url"          : "https://en.wikipedia.org/wiki/Kylo_Ren",
+  "midichlorians": 9000
+  }
+]

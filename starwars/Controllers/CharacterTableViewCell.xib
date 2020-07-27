@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="73" id="KGk-i7-Jjw" customClass="CharacterTableViewCell" customModule="starwars" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="312" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="312" height="72.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fotoCelda.png" translatesAutoresizingMaskIntoConstraints="NO" id="dcS-vc-5Ja">
+                        <rect key="frame" x="0.0" y="0.0" width="312" height="72.5"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H4V-vo-HIN">
+                        <rect key="frame" x="4" y="3.5" width="90" height="66"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="66" id="M7B-lY-wGi"/>
+                            <constraint firstAttribute="width" constant="90" id="vNr-kc-NI6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTo-pu-8C1">
+                        <rect key="frame" x="98" y="11" width="210" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTD-QS-uW3">
+                        <rect key="frame" x="98" y="42.5" width="210" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dcS-vc-5Ja" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9T1-G6-h7t"/>
+                    <constraint firstItem="YTD-QS-uW3" firstAttribute="leading" secondItem="H4V-vo-HIN" secondAttribute="trailing" constant="4" id="BU4-cj-6zR"/>
+                    <constraint firstItem="hTo-pu-8C1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="E3w-6r-fS2"/>
+                    <constraint firstItem="H4V-vo-HIN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="Epq-RW-5oX"/>
+                    <constraint firstItem="H4V-vo-HIN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="FGj-lx-1I1"/>
+                    <constraint firstAttribute="bottom" secondItem="YTD-QS-uW3" secondAttribute="bottom" constant="12" id="FYZ-7z-t8K"/>
+                    <constraint firstItem="hTo-pu-8C1" firstAttribute="leading" secondItem="H4V-vo-HIN" secondAttribute="trailing" constant="4" id="K5o-Zs-DKd"/>
+                    <constraint firstAttribute="bottom" secondItem="YTD-QS-uW3" secondAttribute="bottom" constant="12" id="Nok-4W-Ffw"/>
+                    <constraint firstItem="YTD-QS-uW3" firstAttribute="leading" secondItem="H4V-vo-HIN" secondAttribute="trailing" constant="4" id="Uik-mV-11K"/>
+                    <constraint firstAttribute="trailing" secondItem="YTD-QS-uW3" secondAttribute="trailing" constant="4" id="dM6-7o-bxx"/>
+                    <constraint firstAttribute="trailing" secondItem="dcS-vc-5Ja" secondAttribute="trailing" id="fEU-FY-uFu"/>
+                    <constraint firstItem="dcS-vc-5Ja" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fL1-AM-9TG"/>
+                    <constraint firstAttribute="trailing" secondItem="hTo-pu-8C1" secondAttribute="trailing" constant="4" id="meR-zk-4Au"/>
+                    <constraint firstAttribute="bottom" secondItem="dcS-vc-5Ja" secondAttribute="bottom" id="vwa-g8-OTY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="aliasView" destination="hTo-pu-8C1" id="Z4L-V5-cO9"/>
+                <outlet property="nameView" destination="YTD-QS-uW3" id="bDy-hM-Rl8"/>
+                <outlet property="photoView" destination="H4V-vo-HIN" id="mrA-3O-c8e"/>
+            </connections>
+            <point key="canvasLocation" x="126.40000000000001" y="132.68365817091455"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="fotoCelda.png" width="244" height="69"/>
+    </resources>
+</document>
